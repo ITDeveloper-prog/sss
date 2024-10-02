@@ -1,0 +1,541 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    font-family: "Source Code Pro", monospace;
+    font-weight: 100; 
+    color: rgb(184, 184, 184);
+}
+
+.namesite {
+    color: white;
+}
+
+
+.nnn34{
+    color: white;
+    padding-bottom: 2%;
+}
+
+
+
+
+.menuuu{
+    padding-bottom: 3%;
+}
+
+
+
+
+
+
+.vloj a{
+   
+    color: #2c2955;
+    text-decoration: none;
+    
+}
+
+
+
+.vloj li{
+    list-style-type: none;
+    font-size: 14px;
+   
+}
+
+.vloj{
+    padding-left: 5%;
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+body{
+    background-color: #040404;
+    font-size: 17px
+    
+}
+
+
+
+
+@media(min-width:769px){
+    
+
+
+  
+.sidebarr{
+    padding: 20px;
+    margin-top: 10px;
+} 
+
+
+header {
+    grid-area: header;
+
+    
+   
+}
+body {
+  
+    
+    display: grid;
+    grid-template-areas: 'header header' 'content sidebar' 'footer footer';
+    grid-template-columns: auto 240px;
+    color: #000000;
+}
+
+
+  
+.sidebarr{
+    padding: 20px;
+    margin-top: 10px;
+} 
+
+
+.sidebarr:hover{
+    .cont{
+        color: #ffffff;
+        text-shadow:0 0 1em #fbf7ff,0 0 1.1em #eed8ff,
+     0 0 1.2em #f6ecff;
+    }
+}
+
+
+.sidebarr a:hover{
+    color: #8c6fff;
+
+}
+
+
+header {
+    grid-area: header;
+   
+}
+  
+.contentsh {
+    grid-area: content;
+    
+   
+}
+.sidebarr {
+    grid-area: sidebar;
+    background-color: rgb(12, 12, 12);
+    border:  inset #000000 1px;;
+    
+}
+
+.cont {
+    margin: 0;
+    color: #2c2955;
+}
+  
+.cont:not(:last-child) {
+    margin-bottom: 0px;
+}
+  
+section {
+    text-align: justify;
+}
+  
+section:not(:last-child) {
+    margin-bottom: 20px;
+}
+  
+.sidenav {
+    position: sticky;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.menu1{
+    display: none;
+}
+
+
+
+}
+
+
+@media(max-width:769px){
+    .sidebarr{
+        display: none;
+    }
+}
+
+
+
+    .cont0{
+        color:#2c2955;
+        font-weight: 300;
+    }
+
+
+
+
+
+
+
+
+.navbar{
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-bottom: 2px solid rgb(0,0,0);
+    background-color: #000;
+}
+
+.name{
+    background: linear-gradient(
+        to right,
+        rgb(0 0 0/.8), rgb(0 0 0 /0)
+    ), url(/img/back.jpg);
+    
+    background-repeat: no-repeat;
+
+    background-size:1800px; 
+    background-position: center; 
+    height: 140px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav{
+    color: aliceblue;
+}
+
+h1{
+    font-family:"Source Code Pro", monospace;
+    font-weight: 900;
+    font-style: normal;
+    color: #44409a;
+    text-align: center;
+    padding-top: 46px;
+    
+    letter-spacing: 10px;
+
+}
+
+
+@media(min-width: 1200px){
+    h1{
+        font-size: 50px;
+        padding-top: 38px;
+        
+    }
+    
+    .name{
+        height: 160px;
+       
+    }
+}
+
+
+@media(max-width:1200px){
+    h1{
+        font-size: 50px;
+        padding-top: 38px;
+        
+    }
+    
+    .name{
+        height: 150px;
+    }
+   
+}
+
+
+@media(max-width:990px){
+    h1{
+        font-size: 45px;
+        padding-top: 42px;
+    
+    }
+
+}
+
+
+@media(width:879px){
+    h1{
+        font-size: 40px;
+        padding-top: 44px;
+    }
+
+}
+
+@media(max-width:768px){
+    h1{
+        font-size: 35px;
+        padding-top: 46px;
+    }
+}
+
+@media(max-width:576px){
+    h1{
+        font-size: 30px;
+        padding-top: 47px;
+        
+    }
+    
+} 
+
+
+
+
+
+
+
+ .list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    padding-right: 10px;
+    
+}
+
+.link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+
+.navbar li{
+    list-style: none;
+}
+
+.link1{
+    color: #2c2955;
+}
+
+
+
+
+.list:after {
+    content: "";
+    /* display: table; */
+    }
+
+
+
+  
+@media(max-width:769px){
+
+      .navbar {
+        position:relative;
+        /* display:inline-block; */
+    }
+        
+    /* .navbar li {
+        display: inline;
+        list-style-type: none;
+    }  */
+        
+    .sub-menu {
+        position:absolute; 
+        top:96%;
+        right: -7px;
+        display: none;
+        /* background: #ccc; */
+    } 
+
+    .sub-menu a{
+        padding: 9px;
+        display: block;
+    }
+
+    .sub-menu a:hover{
+        border: #a69bd9 1px inset;
+        color: #ffffff;
+        text-shadow:0 0 1em #fbf7ff,0 0 1.2em #eed8ff,
+     0 0 1.4em #f6ecff,0 0 1.6em #f3e5ff,
+      0 0 1.8em #ebd3ff;
+    }
+
+    .navbar ul li:hover > ul {
+        display:inline-block;
+        
+        
+    }
+
+    .sub-menu ul li:active {
+        display:none;
+        
+        
+    }
+
+    .nmenu{
+        width: 35px;
+       padding: 7px;
+        
+        
+    }
+}
+
+.n2menu{
+    width: 35px;
+    margin-left: 14px;
+    border: white 1px outset;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+@media(min-width:769px){ 
+.nmenu{
+    display: none;
+}
+
+.sub-menu{
+    display:flex;
+    flex-direction: row;
+    gap: 14px;
+
+}
+
+.sub-menu a{
+    padding: 9px;
+}
+
+.sub-menu a:hover{
+    border: #a69bd9 1px inset;
+    color: #ffffff;
+    text-shadow:0 0 1em #fbf7ff,0 0 1.2em #eed8ff,
+ 0 0 1.4em #f6ecff,0 0 1.6em #f3e5ff,
+  0 0 1.8em #ebd3ff;
+}
+}
+
+
+ h2,h3,h4,p{
+    font-family:"Source Code Pro", monospace; 
+} 
+
+.namesite{
+    margin-top: 5%;
+}
+
+section{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.namee{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+
+
+.menu1{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+     /* display: flex;  */
+    background-color: rgb(9, 9, 9);
+    border: inset #000000 1px;
+   padding: 2%;
+
+}
+
+.menu1 a:hover{
+    color: #8c6fff;
+
+}
+
+
+
+.menu1:hover{
+    .cont0{
+        color: #ffffff;
+        text-shadow:0 0 1em #fbf7ff,0 0 1.1em #eed8ff,
+     0 0 1.2em #f6ecff;
+    }
+    /* .lamp{
+        text-shadow:0 0 1em #fbf7ff,0 0 1.1em #eed8ff,
+     0 0 1.2em #f6ecff;
+      */
+
+    
+}
+
+
+
+.menuu1{
+    list-style-type: none;
+    color: #000000;
+    font-weight: 200;
+    
+}
+
+
+.menuuu{
+    text-decoration: none;
+    color: #2c2955;
+    
+    font-weight: 300;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.n1{
+    width: 25%;
+    float: right;
+    margin: 3%;
+}
+
+
+.n2{
+    width: 30%;
+    float: right;
+    margin:3% ;
+}
+
+
+
+
+
+
+
+.lamp{
+    width:5%;
+    float: right;
+    
+}
+
